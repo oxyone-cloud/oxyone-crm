@@ -1,11 +1,64 @@
-cat << 'EOF' > README.md
-# OxyONE CRM
+<!-- Section Présentation OxyONE CRM - Cold Chain & Supply Chain -->
+<section class="bg-slate-900 text-white rounded-2xl p-6 md:p-8 my-6 shadow-xl border border-slate-800">
+  <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
+    
+    <!-- En-tête & Description -->
+    <div class="max-w-2xl">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs font-semibold uppercase tracking-wider mb-4">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+        OxyONE CRM Ecosystem • Retail & Cold Logistics
+      </div>
+      
+      <h2 class="text-2xl md:text-3xl font-bold tracking-tight text-white mb-3">
+        CRM Intelligent pour la Supply Chain & la Chaîne du Froid
+      </h2>
+      
+      <p class="text-slate-300 text-sm md:text-base leading-relaxed mb-6">
+        Optimisé pour les enseignes de la <strong>grande distribution (hypermarchés)</strong> et les <strong>plateformes de distribution logistique</strong>. Suivez vos comptes clients, orchestrez vos approvisionnements critiques sous température dirigée, et garantissez une traçabilité HACCP intégrée du fournisseur jusqu'au linéaire.
+      </p>
 
-Customer Relationship Management application designed for tracking leads, sales pipeline, and task automation.
+      <!-- Indicateurs / Points Forts -->
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 border-t border-slate-800 pt-6">
+        <div>
+          <div class="text-cyan-400 font-bold text-lg md:text-xl">Conformité HACCP</div>
+          <div class="text-xs text-slate-400">Traçabilité thermique temps réel</div>
+        </div>
+        <div>
+          <div class="text-emerald-400 font-bold text-lg md:text-xl">Flux Tendus</div>
+          <div class="text-xs text-slate-400">Pipeline commandes & livraisons</div>
+        </div>
+        <div>
+          <div class="text-blue-400 font-bold text-lg md:text-xl">Grandes Surfaces</div>
+          <div class="text-xs text-slate-400">Portefeuille B2B & Centrales</div>
+        </div>
+      </div>
+    </div>
 
-## Features
-- KPI Dashboard
-- Contact Management
-- Sales Pipeline (Kanban)
-- Analytics with Chart.js
-EOF
+    <!-- Carte interactive d'action rapide -->
+    <div class="w-full lg:w-auto bg-slate-800/80 border border-slate-700/60 rounded-xl p-6 shadow-inner flex flex-col gap-4 min-w-[280px]">
+      <h3 class="text-sm font-semibold text-slate-200 uppercase tracking-wide border-b border-slate-700 pb-2">
+        Piloter les Opérations
+      </h3>
+      
+      <ul class="space-y-3 text-xs text-slate-300">
+        <li class="flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+          <span>Alertes Seuil de Température</span>
+        </li>
+        <li class="flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-cyan-400"></span>
+          <span>Suivi Livraisons Hypermarchés</span>
+        </li>
+        <li class="flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-blue-400"></span>
+          <span>Gestion des Litiges & Qualité</span>
+        </li>
+      </ul>
+
+      <button onclick="alert('Module Cold Chain Logistics prêt à l\'intégration !')" class="mt-2 w-full bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold py-2.5 px-4 rounded-lg transition duration-200 shadow-md text-center">
+        Explorer le Hub Logistique
+      </button>
+    </div>
+
+  </div>
+</section>
